@@ -1,0 +1,199 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Oswald:wght@400;600&family=Roboto+Mono:wght@600&display=swap');
+
+body {
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    margin: 0%;
+    }
+strong {
+    color: #3CFA25;
+}
+
+.apresentacao {
+    gap: 82px;
+    padding: 5% 15%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.titulo__texto {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.75rem;
+}
+
+.apresentacao__sessao {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.titulo__links {
+    width: 50%;
+    border-radius: 15px;
+    justify-content: center;
+    text-align: center;
+    padding: 21.5px 0;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+    color: #f6f6f6;
+    font-weight: 600;
+    border: 2px solid #DBA823;
+    align-items:center;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+
+}
+
+.titulo__img{
+    font-size: 2rem;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+}
+
+.titulo__links:hover {
+    background-color: #272727;
+}
+
+.images__links {
+    width: 10%;
+}
+
+.apresentacao__foto1 {
+    width: 30%;
+    border-radius: 2%;
+    border: solid 2px #3CFA25;
+}
+
+
+.rodape {
+    background-color: #3CFA25;
+    color: #272727;
+    padding: 0% 0% 10px 0%;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 15%;
+}
+
+.cabecalho__link {
+    display: flex;
+    gap: 40px;
+}
+
+.cabecalho__link_p {
+    font-size: 2rem;
+    display: flex;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    color: #FDFF00;
+}
+
+.apresentacao__curriculo{
+    gap: 82px;
+    padding: 5% 15%;
+    justify-content: space-between;
+    display: flex;
+    align-items: flex-start;
+}
+
+.aprensetacao__estrutura {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.titulos__primarios {
+    font-family: 'Merriweather', serif;
+    font-size: 2.81rem;
+    color: white;
+    margin: 0%;
+}
+
+.titulos__secundarios {
+    font-size: 1.87rem;
+    font-family: 'Roboto Mono', monospace;
+    margin: 0%;
+    padding: 5px;
+}
+
+.titulos__principal {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3.43rem;
+    color: #DBA823;
+    font-weight: 600;
+    margin: 0%;
+}
+
+.myDiv {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.apresentacao__theer{
+    padding: 5% 15%;
+    justify-content: space-evenly;
+    display: flex;
+    gap: 2px;
+}
+
+@media (max-width: 1200px) {
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao__curriculo {
+        flex-direction: column-reverse;
+        padding: 5%;
+        align-items: normal;
+    }
+
+    .apresentacao__sessao {
+        width: auto;
+        text-align: center;
+    }
+    
+    .aprensetacao__estrutura {
+        width: auto;
+    }
+
+    .myDiv {
+        width: auto;
+    }
+
+    .cabecalho {
+        padding: 10%;
+    }
+
+    .cabecalho__link {
+        justify-content: center;
+    }
+
+    .apresentacao__foto1 {
+        width: 50%;
+    }
+}
